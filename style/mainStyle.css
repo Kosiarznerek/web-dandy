@@ -1,0 +1,78 @@
+﻿@font-face {
+    font-family: 'AtariFont';
+    src: url('ATARCC__.TTF') format('truetype');
+}
+
+#game {
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+#game #playerStats {
+    width: 100%;
+    background-color: rgb(95, 18, 0);
+    font-size: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#game #playerStats h1 {
+    display: inline-block;
+    color: rgb(255, 210, 131);
+    font-size: 12px;
+    font-weight: bold;
+    font-family: AtariFont;
+    margin-right: 20px;
+}
+
+#game #playerStats #scores {
+    margin-right: 0px;
+}
+
+#game #topBar01 {
+    background-color: rgb(21, 8, 196);
+}
+
+#game #topBar01 h1 {
+    color: rgb(213, 200, 255);
+}
+
+#game #topBar02 {
+    background-color: rgb(0, 58, 52);
+}
+
+#game #topBar02 h1 {
+    color: rgb(213, 200, 255);
+}
+
+#game #topBar03 {
+    background-color: rgb(15, 63, 0);
+}
+
+#game #topBar03 h1 {
+    color: rgb(207, 255, 102);
+}
+
+#game #bottomBar {
+    background-color: rgb(32, 32, 32);
+}
+
+#game #bottomBar h1 {
+    color: rgb(224, 244, 244);
+}
+
+#game .menuBar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 12px;
+}
+
+#game .menuBar h1 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: AtariFont;
+}

@@ -1,0 +1,66 @@
+﻿#floatLeft {
+    width: 60%;
+    height: 100vh;
+    float: left;
+}
+
+#floatLeft #componentsList {
+    float: right;
+}
+
+#floatLeft #componentsList li {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#floatLeft #componentsList li:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#floatLeft #map {
+    float: left;
+    height: 100vh;
+    width: calc(100% - 32px);
+    font-size: 0;
+}
+
+#floatLeft #map div {
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid black;
+    box-sizing: border-box;
+    z-index: 2;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.8;
+}
+
+#floatLeft #map div:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#floatLeft #map #mapBackground {
+    z-index: 1;
+}
+
+#floatRight {
+    width: 40%;
+    height: 100vh;
+    float: right;
+    text-align: center;
+    font-size: 0;
+}
+
+#floatRight #JSONTextarea {
+    display: block;
+    width: 100%;
+    height: calc(100vh - 21px);
+    resize: none;
+    box-sizing: border-box;
+}
+
+#floatRight button {
+    height: 21px;
+    margin: 0;
+    width: 100%;
+}
